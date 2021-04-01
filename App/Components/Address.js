@@ -1,4 +1,4 @@
-const coreLib = require('qtumcore-lib');
+const coreLib = require('ccscore-lib');
 
 class Address {
 

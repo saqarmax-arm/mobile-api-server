@@ -1,13 +1,13 @@
-let qtumcore = require('qtumcore-lib');
-let _ = qtumcore.deps._;
-let PrivateKey = qtumcore.PrivateKey;
-let PublicKey = qtumcore.PublicKey;
-let Address = qtumcore.Address;
-let BufferWriter = qtumcore.encoding.BufferWriter;
-let ECDSA = qtumcore.crypto.ECDSA;
-let Signature = qtumcore.crypto.Signature;
-let sha256sha256 = qtumcore.crypto.Hash.sha256sha256;
-let $ = qtumcore.util.preconditions;
+let ccscore = require('ccscore-lib');
+let _ = ccscore.deps._;
+let PrivateKey = ccscore.PrivateKey;
+let PublicKey = ccscore.PublicKey;
+let Address = ccscore.Address;
+let BufferWriter = ccscore.encoding.BufferWriter;
+let ECDSA = ccscore.crypto.ECDSA;
+let Signature = ccscore.crypto.Signature;
+let sha256sha256 = ccscore.crypto.Hash.sha256sha256;
+let $ = ccscore.util.preconditions;
 
 class MessageCryptographer {
 
